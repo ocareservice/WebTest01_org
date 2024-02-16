@@ -16,8 +16,7 @@ var solutionDirectory = TryGetSolutionDirectory();
 builder.Configuration.AddJsonFile(Path.Combine(solutionDirectory.FullName, "appsettingsTest.json")); 
 
 //test 021
-//02225558
-//testcommit33456
+//change 02
 var app = builder.Build();
 
 string connectionString = GetConnectionStringForTenant(app.Configuration);
