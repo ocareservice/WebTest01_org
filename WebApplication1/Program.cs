@@ -19,6 +19,7 @@ builder.Configuration.AddJsonFile(Path.Combine(solutionDirectory.FullName, "apps
 //change 02
 //change 032 add some change for reviews
 //test22
+//testo 01 ahead
 var app = builder.Build();
 
 string connectionString = GetConnectionStringForTenant(app.Configuration);
